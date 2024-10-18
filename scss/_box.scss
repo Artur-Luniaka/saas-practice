@@ -1,14 +1,14 @@
-@import "_vars";
+// @import "_vars";
 
 // .box {
-//     width: 100px;
-//     height: 100px;
+//     width: calc($box-width + 40vw);
+//     height: $box-height;
 //     background-color: $box-color;
 //     margin-bottom: 50px;
 // }
 
 // .box-2 {
-//     width: 200px;
-//     height: 200px;
+//     width: $box-width;
+//     height: $box-height + 100px;
 //     background-color: $box-color;
 // }

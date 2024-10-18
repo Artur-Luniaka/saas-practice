@@ -4,17 +4,21 @@
 // }
 
 // .list {
-//     width: 500px;
+//     width: 600px;
 //     display: flex;
 //     justify-content: center;
 //     gap: 15px;
 //     list-style: none;
 //     & .item {
 //         @include color;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
 //         width: 200px;
 //         height: 200px;
 //         border: 1px solid grey;
 //         padding: 10px;
+//         transition: all 0.3s ease-in-out;
 //         &:hover {
 //             box-shadow: 5px 5px rgba(34, 60, 80, 0.6);
 //         }

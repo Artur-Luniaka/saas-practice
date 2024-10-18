@@ -3,7 +3,7 @@
 //     & p {
 //         color: black;
 //         font-size: 22px;
-//         line-height: 1.5;
+//         line-height: 1.1;
 //     }
 //     & a {
 //         color: blue;
@@ -12,6 +12,9 @@
 //         text-decoration: none;
 //         &:hover {
 //             color: aquamarine;
+//         }
+//         &.__link:focus {
+//             background-color: cyan;
 //         }
 //     }
 //     &__box {
