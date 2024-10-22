@@ -1,22 +1,22 @@
-// @mixin color {
-//     color: rgb(231, 225, 225);
-//     background-color: rgb(72, 0, 255);
-// }
+@mixin color {
+    color: rgb(231, 225, 225);
+    background-color: rgb(72, 0, 255);
+}
 
-// .list {
-//     width: 500px;
-//     display: flex;
-//     justify-content: center;
-//     gap: 15px;
-//     list-style: none;
-//     & .item {
-//         @include color;
-//         width: 200px;
-//         height: 200px;
-//         border: 1px solid grey;
-//         padding: 10px;
-//         &:hover {
-//             box-shadow: 5px 5px rgba(34, 60, 80, 0.6);
-//         }
-//     }
-// }
+.list {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    & .item {
+        @include color;
+        width: 200px;
+        height: 200px;
+        border: 1px solid grey;
+        padding: 10px;
+        &:hover {
+            box-shadow: 5px 5px rgba(34, 60, 80, 0.6);
+        }
+    }
+}
