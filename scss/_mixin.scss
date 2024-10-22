@@ -3,6 +3,7 @@
     background-color: rgb(72, 0, 255);
 }
 
+<<<<<<< HEAD
 .list {
     width: 500px;
     display: flex;
@@ -20,3 +21,26 @@
         }
     }
 }
+=======
+// .list {
+//     width: 600px;
+//     display: flex;
+//     justify-content: center;
+//     gap: 15px;
+//     list-style: none;
+//     & .item {
+//         @include color;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         width: 200px;
+//         height: 200px;
+//         border: 1px solid grey;
+//         padding: 10px;
+//         transition: all 0.3s ease-in-out;
+//         &:hover {
+//             box-shadow: 5px 5px rgba(34, 60, 80, 0.6);
+//         }
+//     }
+// }
+>>>>>>> 0c04bffc0fb462bbafab39704f05f1cb73b0d8bf

@@ -1,5 +1,6 @@
-@import "_vars";
+// @import "_vars";
 
+<<<<<<< HEAD
 .box {
     width: 100px;
     height: 100px;
@@ -12,3 +13,17 @@
     height: 200px;
     background-color: $box-color;
 }
+=======
+// .box {
+//     width: calc($box-width + 40vw);
+//     height: $box-height;
+//     background-color: $box-color;
+//     margin-bottom: 50px;
+// }
+
+// .box-2 {
+//     width: $box-width;
+//     height: $box-height + 100px;
+//     background-color: $box-color;
+// }
+>>>>>>> 0c04bffc0fb462bbafab39704f05f1cb73b0d8bf
