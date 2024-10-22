@@ -1,19 +1,17 @@
-// @import "_vars";
+@import "_vars";
 
-<<<<<<< HEAD
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: $box-color;
-    margin-bottom: 50px;
-}
+// .box {
+//     width: 100px;
+//     height: 100px;
+//     background-color: $box-color;
+//     margin-bottom: 50px;
+// }
 
-.box-2 {
-    width: 200px;
-    height: 200px;
-    background-color: $box-color;
-}
-=======
+// .box-2 {
+//     width: 200px;
+//     height: 200px;
+//     background-color: $box-color;
+// }
 // .box {
 //     width: calc($box-width + 40vw);
 //     height: $box-height;
@@ -21,9 +19,29 @@
 //     margin-bottom: 50px;
 // }
 
-// .box-2 {
-//     width: $box-width;
+// .box--2 {
+//     width: $box-width + 200px;
 //     height: $box-height + 100px;
 //     background-color: $box-color;
 // }
->>>>>>> 0c04bffc0fb462bbafab39704f05f1cb73b0d8bf
+
+.box {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+ &__item {
+    width: $box-width;
+    height: $box-height;
+    background-color: $box-color;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--2 {
+        color: beige;
+        align-items: flex-end;
+    }
+}
+}

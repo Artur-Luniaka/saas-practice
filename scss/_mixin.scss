@@ -1,27 +1,11 @@
-@mixin color {
-    color: rgb(231, 225, 225);
-    background-color: rgb(72, 0, 255);
-}
+@import '_vars';
 
-<<<<<<< HEAD
-.list {
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    list-style: none;
-    & .item {
-        @include color;
-        width: 200px;
-        height: 200px;
-        border: 1px solid grey;
-        padding: 10px;
-        &:hover {
-            box-shadow: 5px 5px rgba(34, 60, 80, 0.6);
-        }
-    }
-}
-=======
+// @mixin color {
+//     color: rgb(231, 225, 225);
+//     background-color: rgb(72, 0, 255);
+// }
+
+
 // .list {
 //     width: 600px;
 //     display: flex;
@@ -43,4 +27,42 @@
 //         }
 //     }
 // }
->>>>>>> 0c04bffc0fb462bbafab39704f05f1cb73b0d8bf
+
+
+// @font-face {
+//     font-family: 'Poppins';
+//     src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+//         url('../fonts/Poppins-Regular.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+// @font-face {
+//     font-family: 'Impact';
+//     src: url('../fonts/Impact.woff2') format('woff2'),
+//         url('../fonts/Impact.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+// @font-face {
+//     font-family: 'Poppins';
+//     src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+//         url('../fonts/Poppins-SemiBold.woff') format('woff');
+//     font-weight: 600;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+@mixin font_face($family, $url, $weight: normal, $style: normal, $display: swap) {
+    @font-face {
+            font-family: $family;
+            src: url('../fonts/' + $url + '.woff2') format('woff2'),
+                url('../fonts/' + $url + '.woff') format('woff');
+            font-weight: $weight;
+            font-style: $style;
+            font-display: $display;
+        }
+}

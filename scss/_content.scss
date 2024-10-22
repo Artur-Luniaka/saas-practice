@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 .content {
     width: 800px;
     & p {
         color: black;
         font-size: 22px;
-        line-height: 1.5;
+        line-height: 1.1;
     }
     & a {
         color: blue;
@@ -14,6 +14,9 @@
         &:hover {
             color: aquamarine;
         }
+        &:focus {
+            background-color: cyan;
+        }
     }
     &__box {
         width: 200px;
@@ -21,30 +24,3 @@
         background-color: green;
     }
 }
-=======
-// .content {
-//     width: 800px;
-//     & p {
-//         color: black;
-//         font-size: 22px;
-//         line-height: 1.1;
-//     }
-//     & a {
-//         color: blue;
-//         font-size: 22px;
-//         font-weight: bold;
-//         text-decoration: none;
-//         &:hover {
-//             color: aquamarine;
-//         }
-//         &.__link:focus {
-//             background-color: cyan;
-//         }
-//     }
-//     &__box {
-//         width: 200px;
-//         height: 200px;
-//         background-color: green;
-//     }
-// }
->>>>>>> 0c04bffc0fb462bbafab39704f05f1cb73b0d8bf

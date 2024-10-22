@@ -2,3 +2,8 @@
     margin: 0;
     padding: 0;
 }
+@include font_face('Poppins', 'Poppins-Regular');
+@include font_face('Poppins', 'Poppins-SemiBold', 600);
+@include font_face('Poppins', 'Poppins-Poppins-Light', 300);
+@include font_face('Poppins', 'Poppins-Medium', 500);
+@include font_face('Impact', 'Impact');
